@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>rajastthan tour & travel </title>
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light  nav">
+    <!-- <a class="navbar-brand" id="c" href="#">Rajasthan tour&travel</a> -->
+    <a class="navbar-brand" id="c" href="#"> <img id="img" src="./image/raj logo.jpeg" alt=""> <img id="img2" src="./image/logoimagge3.png" alt=""></a>
+    <button id="tog" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a id="f-size" class="nav-link" href="index.html"><i id="i-gap" class="fa-solid fa-home"></i>&nbsp;Home <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a id="f-size" class="nav-link" href="tourpackages.html">Tour Package</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a id="f-size" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+            aria-expanded="false">
+            <i class="fa-solid fa-location"></i>&nbsp;Location
+          </a>
+          <div class="dropdown-menu ">
+            <a class="dropdown-item" href="./jodhpur.html">Jodhpur</a>
+            <a class="dropdown-item" href="#">Jaipur</a>
+            <a class="dropdown-item" href="./udaipur.html">udaipur</a>
+            <a class="dropdown-item" href="./jaisalmer.html">Jaisalmer</a>
+
+          </div>
+        </li>
+        <li class="nav-item">
+            <a id="f-size" class="nav-link" href="./about us.html">About us</a>
+          </li>
+        <li class="nav-item">
+          <!-- <a class="nav-link" id="Register" href="#">Register</a> -->
+          <button type="button" id="Register" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Register
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Registration form</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="inputAddress">Name</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress">E-mail</label>
+                      <input type="email" class="form-control" id="email" placeholder="xyz@gmail.com">
+                    </div>
+                    <!-- <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputPassword4">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                      </div>
+                    </div> -->
+                    <div class="form-group">
+                      <label for="inputAddress2">Contact no.</label>
+                      <input type="number" class="form-control" id="inputAddress2" placeholder="">
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputCity">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputState">State</label>
+                        <select id="inputState" class="form-control">
+                          <option selected>Choose...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="inputZip">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="reset" class="btn btn-primary">Clear</button>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+     
+    <div class="jodcontainer">
+        <div class=" jodrow">
+            <h2>Travel Destinations</h2>
+        </div>
+        <div class="jodline">
+            <hr>
+        </div>
+        <br>
+        <br>
+        <div class="jod-destination-part2"><br>
+            <h2 class="jaipur-travl">JAIPUR TOUR & TRAVEL</h2>
+			<p class="destinat-text2">Jaipur is the city of princes and princesses, of tales of valour and courage, of romance and chivalry. Majestic forts, luxurious palaces, lively temples, colourful bazaars, vibrant streets and pink face, have given the city a unique and unmatched character that immediately endears itself to every 
+        visitor.</p>
+			<p class="destinat-text2">Showing an amazing mix of modernity, traditions and old world charm this city surges forward with its roots in the past. A bustling metropolis today, it is the perfect example of the very essence of India!</p>
+			<p class="destinat-text2">The Pink City, as Jaipur is popularly known, was not always pink. Its main thoroughfares and buildings are painted earthy pink in honour of the 
+        visiting Prince of Wales in 1876. It all came about due to the fact that it was thought that the glaring white starkness of its buildings would be too 
+        bright for the visiting prince and thus the idea to paint buildings pink, came about. Today, every home within the old city is obliged by law to maintain 
+        this facade. This amazingly symmetrical and thoroughly proportioned city came into existence as early as 1727 being the only city in India which was 
+        conceptualized and conceived on such a grand scale.</p>
+        <p class="destinat-text2">Through the great vision and scholarly skills of Maharaja Sawai Jai Singh II and extensive works by his Chief Architect Vidyadhar Bhattacharji, Jaipur rose to fame as the most beautiful and the best planned place to live in. Liberal, protective and secular policies of the rulers attracted a wide range of artisans, artists and businessmen, which today make this city, a great arts, crafts, trade and cultural centre. Architecturally, the city proved to be a 
+          milestone and other great kings like Sawai Ram Singh and Sawai Mansingh II added many more public buildings and institutions to this existing masterpiece.</p>
+          <p class="destinat-text2">Places of interest are the Jaipur Museum, Albert Museum, Birla Mandir Planetarium, Sisodia Rani Park, Lakshmi Narain Temple, Kanak Vrindavan, The Rajmahal Palace; Rambagh Palace (now a Luxury hotel) and other parks. No matter what you choose to do, your time in Jaipur will be remembered for a long 
+            time to come.</p>
+            <p class="destinat-text2">Jaipur is surrounded on all sides by rugged hills, crowned with forts and enclosed by embattled walls. The Old City, the actual Pink City, is a great place to wander around. Maharaja Man Singh II had the whole city painted pink when the Prince of Wales, later Edward VII, visited Jaipur in 1876. 
+              Fabulous, tall houses with latticed windows line the narrow streets of the old city, their rose pink colour lending enchantment to a scene which is almost 	magical at sunset. Today luxurious hotels and resorts offer comfortable accommodation to all who wish to visit and the tourist infrastructure is equally professionally handled.</p>
+			<br><br>
+        </div>
+        <div class="mehran">
+            <img src="./image/amer-fort.jpg" >
+            <div class="mehran-text">
+                <h2>AMER FORT</h2>
+                <p>Amber is located at a distance of 11 kilometers from Jaipur and was the old fort of the Kachhwaha clan of Amber, which used to be the capital, till it was moved to Jaipur. The fort is built with white marble and red sandstone and look even more attractive because of the Maota Lake in the foreground. The fort in itself is a beautiful sight to behold but as one looks on the fort with its clear reflection on the lake in the front, one cannot help but wonder if it is a dream or a beautiful illusion. The tourists to this fort can either approach the fort by road or take an elephant ride, which though is quite slow yet is a lot of fun. </p>
+            </div>
+        </div>
+        <div class="umaid">
+            <img src="./image/hawa1.jpg" >
+            <div class="umaid-text">
+                <h2>HAWA MAHAL</h2>
+                <p>How often have we been told not to build castles in the air? Very often indeed, but if you are a dreamer and wish to see this 'palace of the winds' which is not just in your imagination but a real palace, then come to the 'pink city' of Rajasthan and see the Hawa Mahal. Each wall of the palace reinforces the idea that 'dreams truly can come true', The Hawa Mahal, which adjoins the famous City Palace wall, was built in 1799 by Maharaja Sawai Pratap Singh and has now become one of the major landmarks of Jaipur. The palace is shaped like a pyramid and is a five-storied building, with number of small windows and screens, with arched roofs. </p>
+            </div>
+        </div>
+        
+        <div class="jaswant">
+            <img src="./image/jantar-mantar.jpg" >
+            <div class="jaswant-text">
+                <h2>JANTAR MANTAR</h2>
+                <p>Jantar Mantar is another important tourist attraction in Jaipur. Built by the astronomer king Sawai Jai Singh II, Jantar Mantar is one of the five observatories built by the king. The Jantar Mantar at Jaipur is the biggest and most elaborate observatory in India. Constructed between 1728 and 1734, the Jantar Mantar is located in the center of Jaipur. The name "Jantar Mantar" is a modification of the Hindi words "yantra" meaning instruments, and "mantra" meaning formulae. It was built to study various phenomenon of astronomy like latitudes, longitudes, constellations, local time, declination of the sun, planets and the stars, and to determine eclipses. </p>
+            </div>
+        </div>
+        <div class="balsamand">
+            <img src="./image/city-places.jpg" >
+            <div class="balsamand-text">
+                <h2>CITY PALACE</h2>
+                <p>The City Palace in Jaipur is an important landmark in the Pink City. The City Palace complex is where the royalty of Jaipur used to stay. The City Palace is a perfect blend of Mughal and Rajput architecture. The palace complex was built by Maharaja Jai Singh II and his successors made various additions to the complex. Some of the beautiful buildings in the City Palace complex include Mubarak Mahal, Badal Mahal, Sh. Govind Dev Temple, Chandra Mahal and City Palace Museum. Tourism in Rajasthan offers complete information on various tourist destinations and hotels in Rajasthan.  </p>
+            </div>
+        </div>
+        <div class="mehran">
+          <img src="./image/nahrgarh-fort.jpg" >
+          <div class="mehran-text">
+              <h2>NAHARGARH FORT</h2>
+              <p>Perched atop a pricturesque hill, the Nahargarh Fort offers a breathtaking view of the city below. Initially built by Sawai Jain Singh in 1734 A.D. It was enlarged and given its present shape by Sawai Madho Singh in1885 A.D. Decorative motifs in some of the rooms are delightful. From the windows of the nine identical suites, one gets a magnificent view of the city, complete witht he geometrical layout. From Amer there is a road to Nahargarh, which passes through the hills.</p>
+          </div>
+      </div>
+    </div>
+
+
+
+    
+  <footer>
+    <h2>Subscribe <br>get speacial discount</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint perferendis aspernatur.</p>
+    <div class="innput">
+      <input type="text" placeholder="Enter  your e-mail address">
+      <button>Subscribe</button>
+    </div>
+    <ul>
+      <li>
+        7823 <br><h6> Years Serving the travel Industry</h6>
+      </li>
+      <li>6374<br><h6> Global <br>Partnership</h6></li>
+      <li>1495 <br> <h6>Industry Award since 2022</h6></li>
+      <li>5658 <br> <h6>Subscribe</h6></li>
+    </ul>
+
+  </footer>
+
+  <script src="app.js"></script>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+</body>
+</html>

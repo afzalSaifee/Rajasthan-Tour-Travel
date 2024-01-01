@@ -1,0 +1,347 @@
+@media(max-width:1270px){
+    li #f-size{
+        font-size: 15px;
+    }
+}
+@media(max-width:1060px){
+    li #f-size{
+        font-size: 13px;
+    }
+}
+@media(max-width:1024px){
+    #c #img2{
+        margin-left: -30px;
+    }
+}
+@media(max-width:1355px){
+    
+    .offer .sec3 .sec3card h3{
+        width: 200px;
+        font-size: 15px;
+    }
+    .offer .sec3 .sec3card{
+        margin: 20px 0px;
+    }
+}
+@media(max-width:1070px){
+    
+    .destination{
+        width: 70%;
+    }
+}
+@media(max-width:425px){
+    .destination .des-bx h4 {
+        font-size: 21px;
+    }
+    #c{
+        font-size: 26px;
+    }
+.destination .des-bx p {
+    font-size: 12px;
+}
+.destination .des-bx li {
+    font-size: 12px;
+}
+.destination .des-bx h6 {
+    width: 135px;
+    font-size: 11px;
+}
+.destination .img-bx img {
+    width: 120%;
+    /* height: 290px; */
+}
+.destination .img-bx .msg {
+    width: 102px;
+    /* padding: -6px 5px; */
+    padding: -6px 0px;
+}
+.destination .img-bx .msg .cont h4 {
+    font-size: 11px;
+}
+.destination .img-bx .msg .cont i:nth-child(1) {
+    
+    font-size: 10px;
+}
+.destination .img-bx .msg .cont i:nth-child(1) span {
+    /* margin-left: 3px; */
+    margin-left: 0px;
+    font-size: 8px;
+   
+}
+.destination .img-bx .msg .cont i:nth-child(2) {
+    font-size: 9px;
+    margin-right: -17px;
+}
+.destination .img-bx .msg:nth-child(2) {
+    top: 10%;
+    left: 56%;
+}
+.destination .img-bx .msg .cont {
+    margin-left: 4px;
+}
+}
+
+@media(max-width:600px){
+    .destination .des-bx h4 {
+        font-size: 25px;
+    }
+.destination .des-bx p {
+    font-size: 12px;
+}
+.destination .des-bx li {
+    font-size: 12px;
+}
+.destination .des-bx h6 {
+    width: 135px;
+    font-size: 11px;
+}
+.destination .img-bx img {
+    width: 120%;
+    /* height: 290px; */
+}
+.destination .img-bx .msg {
+    width: 102px;
+    /* padding: -6px 5px; */
+    padding: -6px 0px;
+}
+.destination .img-bx .msg .cont h4 {
+    font-size: 11px;
+}
+.destination .img-bx .msg .cont i:nth-child(1) {
+    
+    font-size: 10px;
+}
+.destination .img-bx .msg .cont i:nth-child(1) span {
+    /* margin-left: 3px; */
+    margin-left: 0px;
+    font-size: 8px;
+   
+}
+.destination .img-bx .msg .cont i:nth-child(2) {
+    font-size: 9px;
+    margin-right: -17px;
+}
+.destination .img-bx .msg:nth-child(2) {
+    top: 10%;
+    left: 80%;
+}
+.destination .img-bx .msg .cont {
+    margin-left: 4px;
+}
+}
+@media(max-width:600px){
+    .destination .img-bx .msg:nth-child(2) {
+        top: 10%;
+        left: 60%;
+    }
+    .destination .des-bx h4 {
+        font-size: 20px;
+    }
+}
+@media(max-width:1024px){
+    .ser-div1 img {
+        max-width: 48%;
+    }
+
+.ser-div1 {
+    padding: 0%;
+}
+.heading8 {
+    font-size: 17px;
+    margin: 0.2rem;
+}
+#text-dec {
+    font-size: 0.9rem;
+}
+}
+@media(max-width:768px){
+    .ser-div1 img {
+        max-width: 43%;
+    }
+    #c #img2{
+        margin-left: -21px;
+        width: 35%;
+    }
+    #c #img{
+        width: 30%;
+    }
+
+.ser-div1 {
+    padding: 0%;
+}
+.heading8 {
+    font-size: 14px;
+    margin: 0.2rem;
+}
+#text-dec {
+    font-size: 0.6rem;
+}
+}
+@media(max-width:425px){
+    .ser-div1 img {
+        max-width: 43%;
+    }
+        #c #img2{
+        margin-left: -17px;
+        width: 60%;
+    }
+        #c #img{
+        width: 55%;
+    }
+.ser-div1 {
+    padding: 0%;
+}
+.heading8 {
+    font-size: 12px;
+    margin: 0.2rem;
+}
+#text-dec {
+    font-size: 0.5rem;
+}
+}
+@media(max-width:320px){
+    .destination .img-bx .msg:nth-child(2) {
+        top: 10%;
+        left: 50%;
+    }
+       #c #img2{
+        margin-left: -10px;
+    }
+    .heading8{
+        font-size: 8px;
+    }
+    .destination .img-bx img {
+        height: 304px;
+    }
+    .destination .des-bx h4 {
+        font-size: 16px;
+    }
+    .destination .des-bx li {
+        font-size: 11px;
+    }
+    .destination .des-bx h6 {
+        width: 105px;
+        font-size: 10px;
+}
+}
+@media(max-width:600px){
+    footer p {
+        width: 300px; 
+    }
+}
+@media(max-width:500px){
+   footer ul{
+    margin-left: 1rem;
+   }
+
+}
+@media(max-width:324px){
+ footer ul li h6{
+    font-size: 10px;
+ }
+}
+@media(max-width:375px){
+ #c{
+    font-size:19px;
+ }
+    #c #img2{
+        margin-left: -13px;
+    }
+}
+
+
+/* tour package page */
+@media(max-width:768px){
+    .package-h{
+        margin: 44px auto;
+    }
+    .main-cont-pack .tour-part1 .tour-text h1{
+        font-size: 15px;   
+    }
+    
+    .main-cont-pack .tour-part1 .tour-text h2 {
+        font-size: 15px;
+    } 
+    .main-cont-pack .tour-part1 .tour-text .images img {
+        height: 20px;
+        width: 20px;
+    }
+    .main-cont-pack .tour-part1 .tour-text li {
+        font-size:11px ;
+    }
+    .main-cont-pack .tour-part1 .tour-text {
+        font-size: 13px;
+    }
+    .main-cont-pack .tour-part1 .tour-text a {
+        line-height: 22px;
+        font-size: 10px;
+    }
+}
+@media(max-width:425px){
+    .main-cont-pack .tour-part1 .tour-text h1{
+        font-size: 12px;   
+    }
+    
+    .main-cont-pack .tour-part1 .tour-text h2 {
+        font-size: 11px;
+    } 
+    .main-cont-pack .tour-part1 .tour-text .images img {
+        height: 15px;
+        width: 15px;
+    }
+    .main-cont-pack .tour-part1 .tour-text li {
+        font-size:9px ;
+    }
+    .main-cont-pack .tour-part1 .tour-text {
+        font-size: 10px;
+    }
+    .main-cont-pack .tour-part1 .tour-text a {
+        line-height: 19px;
+        font-size: 8px;
+    }
+    .package-h .text-pack h1{
+        font-size: 2rem;
+    }
+}
+@media(max-width:375px){
+    .main-cont-pack .tour-part1 .tour-text h1{
+        font-size: 10px;   
+    }
+    .package-h .text-pack h1{
+        font-size: 1.6rem;
+    }
+}
+  /* About us section */
+  @media(max-width:768px){
+    .service-sec .service img {
+        height: 400px;
+        width: 500px;}
+    .service-sec .service .service-menu li {
+        line-height: 40px;
+  }
+}
+  @media(max-width:570px){
+    .service-sec .service img {
+        height: 350px;
+        width: 400px;}
+}
+  @media(max-width:425px){
+    .service-sec .service img {
+        height: 350px;
+        width: 350px;}
+} 
+  @media(max-width:375px){
+    .service-sec .service img {
+        height: 300px;
+        width: 300px;}
+}  
+  @media(max-width:320px){
+    .service-sec .service img {
+        height: 300px;
+        width: 250px;}
+}  
+
+  /* location section */
+  @media(max-width:1024px){
+  
+}

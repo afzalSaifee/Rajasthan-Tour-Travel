@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>rajastthan tour & travel </title>
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light  nav">
+    <!-- <a class="navbar-brand" id="c" href="#">Rajasthan tour&travel</a> -->
+    <a class="navbar-brand" id="c" href="#"> <img id="img" src="./image/raj logo.jpeg" alt=""> <img id="img2" src="./image/logoimagge3.png" alt=""></a>
+    <button id="tog" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a id="f-size" class="nav-link" href="index.html"><i id="i-gap" class="fa-solid fa-home"></i>&nbsp;Home <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a id="f-size" class="nav-link" href="tourpackages.html">Tour Package</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a id="f-size" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+            aria-expanded="false">
+            <i class="fa-solid fa-location"></i>&nbsp;Location
+          </a>
+          <div class="dropdown-menu ">
+            <a class="dropdown-item" href="./jodhpur.html">Jodhpur</a>
+            <a class="dropdown-item" href="./jaipur.html">Jaipur</a>
+            <a class="dropdown-item" href="./udaipur.html">udaipur</a>
+            <a class="dropdown-item" href="./jaisalmer.html">Jaisalmer</a>
+
+          </div>
+        </li>
+        <li class="nav-item">
+          <a id="f-size" class="nav-link" href="#">About us</a>
+        </li>
+        <li class="nav-item">
+          <button type="button" id="Register" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Register
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Registration form</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="inputAddress">Name</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress">E-mail</label>
+                      <input type="email" class="form-control" id="email" placeholder="xyz@gmail.com">
+                    </div>
+                    <!-- <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputPassword4">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                      </div>
+                    </div> -->
+                    <div class="form-group">
+                      <label for="inputAddress2">Contact no.</label>
+                      <input type="number" class="form-control" id="inputAddress2" placeholder="">
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputCity">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputState">State</label>
+                        <select id="inputState" class="form-control">
+                          <option selected>Choose...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="inputZip">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="reset" class="btn btn-primary">Clear</button>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>               
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+    <!-- about section -->
+    <div class="about">
+        <h1>ABOUT US</h1>
+        <h2>Rajasthan Tour</h2>
+        <p><b>Experience great holiday.........not fatigue</b><br> Destination Rajasthan is what you have been missing all the while! We are tour operators serving both 	domestic and international tourists for 15 years now. The experience and expertise of our team, blended with the most modern technologies hold the key to 
+            our success. We always strive to offer the best value oriented packages to our customers. We evolve with time and necessity, which is why we have emerged 	
+            as one of the best in our breed.
+        </p>
+        <p>Discover Rajasthan the land of heroism, romance and chivalry immensely rich in culture, history and natural beauty. We are one of the 	leading travel 
+           agent and tour operators of Rajasthan, ensuring ultimate holidays at ultimate destinations of Rajasthan, an experience you will cherish for 
+           a lifetime.
+        </p>
+        <p>Our dedicated team of professionals and network offices all over Rajasthan, to provide your more safe tour with prompt and 
+            well-coordinated services. We do not believe in short cuts for success, as our prime objective is 'customers satisfaction'. The comment of the customers 
+            reflects our professionalism to other related people.
+        </p>
+         <p>Our Hot Tour Packages are designed in a tourist friendly manner to suit all your needs. A striking feature of these packages is that these are fully 
+                guided tours. Throughout the tour, our trained guide will accompany you and help you to make the most out of it. The itineraries are full of fun and 
+                relaxation and you are never overburned with sights
+        .</p>
+        <p>You have enough time to explore the deeper intricacies involved in the monuments, to discover the culture and tradition of the places visited, and to 
+                    rest your weary eyes as well. And don’t be amazed if your guide converses with you in your native tongue!</p>
+    </div>
+
+    <!-- services -->
+    <div class="service-sec">
+        <h1>OUR SERVICES</h1>
+        <div class="service">
+            <img src="./image/about.jpeg" alt="">
+            <ul class="service-menu">
+                <li><span class="arrow3">»</span>&nbsp;Fully Guided Tour Packages ( Honeymoon Tour, Picnic Tour, Educational Tour, Historical Tour etc. )</li>
+                <li><span class="arrow3">»</span>&nbsp;Hotel Booking ( The type of accommodation is subject to your choice )</li>
+                <li><span class="arrow3">»</span>&nbsp;Air Ticketing</li>
+                <li><span class="arrow3">»</span>&nbsp;Train Tickets</li>
+                <li><span class="arrow3">»</span>&nbsp;Car Coach Rentals (A/C and Non-A/C)</li>
+                <li><span class="arrow3">»</span>&nbsp;Rajasthani Theme Events</li>
+                <li><span class="arrow3">»</span>&nbsp;Meetings &amp; Conference</li>
+                <li><span class="arrow3">»</span>&nbsp;Camel Safari, Hourse Safari, Elephant Safari And Jeep Safari</li>
+                </ul>
+        </div>
+    </div>
+  <footer>
+    <h2>Subscribe <br>get speacial discount</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint perferendis aspernatur.</p>
+    <div class="innput">
+      <input type="text" placeholder="Enter  your e-mail address">
+      <button>Subscribe</button>
+    </div>
+    <ul>
+      <li>
+        7823 <br><h6> Years Serving the travel Industry</h6>
+      </li>
+      <li>6374<br><h6> Global <br>Partnership</h6></li>
+      <li>1495 <br> <h6>Industry Award since 2022</h6></li>
+      <li>5658 <br> <h6>Subscribe</h6></li>
+    </ul>
+
+  </footer>
+
+  <script src="app.js"></script>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+</body>
+</html>

@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>rajastthan tour & travel </title>
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light  nav">
+    <!-- <a class="navbar-brand" id="c" href="#">Rajasthan tour&travel</a> -->
+    <a class="navbar-brand" id="c" href="#"> <img id="img" src="./image/raj logo.jpeg" alt=""> <img id="img2" src="./image/logoimagge3.png" alt=""></a>
+    <button id="tog" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a id="f-size" class="nav-link" href="index.html"><i id="i-gap" class="fa-solid fa-home"></i>&nbsp;Home <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a id="f-size" class="nav-link" href="tourpackages.html">Tour Package</a>
+        </li>
+       
+        <li class="nav-item dropdown">
+          <a id="f-size" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+            aria-expanded="false">
+            <i class="fa-solid fa-location"></i>&nbsp;Location
+          </a>
+          <div class="dropdown-menu ">
+            <a class="dropdown-item" href="./jodhpur.html">Jodhpur</a>
+            <a class="dropdown-item" href="./jaipur.html">Jaipur</a>
+            <a class="dropdown-item" href="#">udaipur</a>
+            <a class="dropdown-item" href="./jaisalmer.html">Jaisalmer</a>
+
+          </div>
+        </li>
+        <li class="nav-item">
+            <a id="f-size" class="nav-link" href="./about us.html">About us</a>
+          </li>
+        <li class="nav-item">
+          <!-- <a class="nav-link" id="Register" href="#">Register</a> -->
+          <button type="button" id="Register" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Register
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Registration form</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="inputAddress">Name</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress">E-mail</label>
+                      <input type="email" class="form-control" id="email" placeholder="xyz@gmail.com">
+                    </div>
+                    <!-- <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputPassword4">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                      </div>
+                    </div> -->
+                    <div class="form-group">
+                      <label for="inputAddress2">Contact no.</label>
+                      <input type="number" class="form-control" id="inputAddress2" placeholder="">
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputCity">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputState">State</label>
+                        <select id="inputState" class="form-control">
+                          <option selected>Choose...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="inputZip">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="reset" class="btn btn-primary">Clear</button>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <div class="jodcontainer">
+    <div class=" jodrow">
+        <h2>Travel Destinations</h2>
+    </div>
+    <div class="jodline">
+        <hr>
+    </div>
+    <br>
+    <br>
+    <div class="jod-destination-part2"><br>
+        <h2 class="jaipur-travl">UDAIPUR TOUR & TRAVEL</h2>
+        <p class="destinat-text2">Founded by Maharana Udai Singh II in 1568, Udaipur has many legends attached to it. Udai Singh founded this city after Mughal Emperor Akbar besieged his fortress, Chittorgarh. It is believed that a holy man, meditating on the hill near Pichola Lake, advised Udai Singh to set up his capital here. After his death in 1572, Udai Singh was succeeded by Maharana Pratap, the most admired Rajput hero. As you read on this Udaipur city guide further, you will get to know more about this beautiful city. </p>
+        <p class="destinat-text2">During Maharana Pratap's reign, Udaipur saw a battle being fought with the Mughals at Haldighati in 1576. In the years that followed, there were numerous invasions and battles fought by Mewar. All this came to rest in 19th century with the help of British intervention. A treaty was signed to protect Udaipur from the foreign invaders. After becoming independent, Udaipur merged itself within the union of India.</p>
+        <p class="destinat-text2">Also known as the Venice of the east, the city Udaipur in Rajasthan, India mesmerizes the tourists with its charm and beauty. Because of many lakes Udaipur, it is sometimes also called the city of lakes. Udaipur travel and tourism will bring you across a number of palaces, rich in architectural beauty. The Lake Palace on Jag Niwas Island in the middle of Pichola Lake, along with the City Palace and the Jag Niwas are some of the famous palaces of the city. Udaipur is also known for its exquisite arts, craft and miniature paintings. Then there is also the famous Shilpgram festival attracting the tourists to Udaipur.</p>
+ <br><br>
+    </div>
+    <div class="mehran">
+        <img src="./image/udaipur-dest.jpg" >
+        <div class="mehran-text">
+            <h2>CITY PALACE</h2>
+            <p>A vivid and picturesque vision in white marble, the City Palace looms over the crystal waters of the Lake Pichola in Udaipur, Rajasthan. Maharaja Udai Singhji laid the foundations of the enchanting marble City Palace. Udai Singhji's successors added buildings to the City Palace Complex in the later years, Famous for its splendidly carved and decorated royal apartments, lavish lawns with attractively sculpted pavilions, sculptures and spectacular hallways, massive arches, turrets and battlements, the gorgeous. There are several massive gates that lead to the fortified City Palace, though the Hati Pol or the Elephant Gate is the main one. According to a traditional custom the Maharanas of Udaipur would be weighed in gold and silver at the entrance of the Hati Pol and the wealth would then be distributed amongst the poor and needy. </p>
+        </div>
+    </div>
+    <div class="umaid">
+        <img src="./image/saheliyon-ki-bari.jpg" >
+        <div class="umaid-text">
+            <h2>SAHELIYON KI BARI</h2>
+            <p>Saheliyon ki Bari in Udaipur recreates regal grandeur as you walk along marble pathways flanked by life size marble sculptures of elephants and lions spurting water into exotic water pools. Fascinating Saheliyon-ki-Bari or the 'garden of maids' was designed and built under the express guidance of Maharana Sangram Singh II. It is believed that Saheliyon ki Bari was constructed for 48 maids who accompanied the Maharana's wife as dowry. Designed as a pleasure park, Saheliyon ki Bari served as a place of frolic and enjoyment for the ladies of the household. Later Maharana Bhopal Singhji constructed a pavilion of 'rain fountains' within the Saheliyon ki Bari. The idea was to create an illusion of rain dancing in rhythm with dancing maids. The main reservoir at Saheliyon ki Bari is flanked by four black marble royal cenotaphs on four corners with sculpted birds on the roofs spurting water from their beaks. Admire delightfully carved marble pavilions; see intricately carved kiosks in the middle of pure water pools and marvel at an exotic lotus pool. All these and other enchanting diversions at the stunning Saheliyon Ki Bari in Udaipur, Rajasthan envelop you into a soft romantic embrace. Visit the museum located within Saheliyon ki Bari that displays a variety of objects that were in use in the royal households. See with wonder-eyed fascination stuffed cobras and other interesting things at the Saheliyon ki Bari in Udaipur, Rajasthan, India.</p>
+        </div>
+    </div>
+    
+    <div class="jaswant">
+        <img src="./image/fatehsagar-lake.jpg" >
+        <div class="jaswant-text">
+            <h2>FATEH SAGAR LAKE</h2>
+            <p>Udaipur tours are near incomplete without luxury tours to the manmade Fateh Sagar Lake located towards the north of the picturesque Lake Pichola. Fateh Sagar was dug during the reign of Maharana Jai Singh in the year 1678 though Maharaja Fateh Singhji reconstructed the water reservoir after heavy rains destroyed the Fateh Sagar Dam. Fateh Sagar is linked to the Rang Sagar Lake by a water canal. Enjoy a boat cruise on the sparkling Fateh Sagar Lake that overlooks green hills and pleasant Udaipur vistas. One of the major tourist attractions of Udaipur, Rajasthan, India, the Fateh Sagar Lake captivates you with its myriad attractions. Watch spectacular sunsets as you enjoy a luxury boat cruise on the Fateh Sagar Lake in Udaipur, Rajasthan, India. Tour the Nehru Park that is located on the banks of Fateh Sagar and pamper your taste buds at an exotic boat-shaped restaurant located close by.</p>
+        </div>
+    </div>
+    <div class="balsamand">
+        <img src="./image/gulab-bag.jpg" >
+        <div class="balsamand-text">
+            <h2>GULAB BAGH</h2>
+            <p>Gorgeous and ornate, the Gulab Bagh in Udaipur is a paradisiacal pleasure garden spread over a sprawling 100 acres. Laid by Maharana Sajjan Singhji in the 18th century, Gulab Bagh is also known as Sajjan Niwas Garden and creates soothing vistas with exotic rose beds, fruit trees, orchids and attractive looking plants. Admire pleasure diversions at Gulab Bagh, Udaipur as you chug along on the Aravalli Express or the luxury toy train that takes you around the park. One of the most beautiful gardens in Udaipur, Rajasthan, India, Gulab Bagh encompasses within its green folds a zoo and a library that add to your enchanting holiday experience. Acres of rose beds with exotic rose varieties that are not commonly seen in India greet you at the mesmerizing Gulab Bagh in Udaipur, Rajasthan, India. </p>
+        </div>
+    </div>
+    <div class="jaswant">
+      <img src="./image/bagore-ki-haveli.jpg" >
+      <div class="jaswant-text">
+          <h2>BAGORE KI HAVELI</h2>
+          <p>Perched on the Gangori Ghat on the banks of the dazzling Lake Pichola, Bagore ki Haveli was constructed by Amir Chand Badwa, who was the Prime Minister at the Mewar royal court during his time. This medieval haveli with more than 100 rooms was condemned to neglect till it was revamped in the year 1986 when the West Zone Cultural Centre was set up here. One of the romantic tourist destinations of Udaipur in Rajasthan, India Bagore ki Haveli showcases enamoring architectural splendor. Marvel at the fascinating original Mewar paintings on the walls of the Queen's quarters, feast your eyes on exquisite peacocks fashioned with tiny pieces of colored glass and admire objects of daily use that were used in the royal household. The cultural museum within Bagore ki Haveli has a wide variety of royal objects on display. See hookahs, nutcrackers, jewelry boxes, rose water sprinklers, hand fans and more.</p>
+      </div>
+  </div>
+</div>
+
+    
+  <footer>
+    <h2>Subscribe <br>get speacial discount</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint perferendis aspernatur.</p>
+    <div class="innput">
+      <input type="text" placeholder="Enter  your e-mail address">
+      <button>Subscribe</button>
+    </div>
+    <ul>
+      <li>
+        7823 <br><h6> Years Serving the travel Industry</h6>
+      </li>
+      <li>6374<br><h6> Global <br>Partnership</h6></li>
+      <li>1495 <br> <h6>Industry Award since 2022</h6></li>
+      <li>5658 <br> <h6>Subscribe</h6></li>
+    </ul>
+
+  </footer>
+
+  <script src="app.js"></script>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+</body>
+</html>

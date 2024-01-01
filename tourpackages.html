@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>rajastthan tour & travel </title>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light  nav">
+        <!-- <a class="navbar-brand" id="c" href="#">Rajasthan tour&travel</a> -->
+        <a class="navbar-brand" id="c" href="#"> <img id="img" src="./image/raj logo.jpeg" alt=""> <img id="img2" src="./image/logoimagge3.png" alt=""></a>
+        <button id="tog" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a id="f-size" class="nav-link" href="index.html"><i id="i-gap"
+                            class="fa-solid fa-home"></i>&nbsp;Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a id="f-size" class="nav-link" href="#">Tour Package</a>
+                </li>
+               
+                <li class="nav-item dropdown">
+                    <a id="f-size" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fa-solid fa-location"></i>&nbsp;Location
+                    </a>
+                    <div class="dropdown-menu ">
+                        <a class="dropdown-item" href="./jodhpur.html">Jodhpur</a>
+                        <a class="dropdown-item" href="./jaipur.html">Jaipur</a>
+                        <a class="dropdown-item" href="./udaipur.html">udaipur</a>
+                        <a class="dropdown-item" href="./jaisalmer.html">Jaisalmer</a>
+
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a id="f-size" class="nav-link" href="about us.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <button type="button" id="Register" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Register
+                      </button>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Registration form</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <form>
+                                <div class="form-group">
+                                  <label for="inputAddress">Name</label>
+                                  <input type="text" class="form-control" id="inputAddress" placeholder="Enter your name">
+                                </div>
+                                <div class="form-group">
+                                  <label for="inputAddress">E-mail</label>
+                                  <input type="email" class="form-control" id="email" placeholder="xyz@gmail.com">
+                                </div>
+                                <!-- <div class="form-row">
+                                  <div class="form-group col-md-6">
+                                    <label for="inputEmail4">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail4">
+                                  </div>
+                                  <div class="form-group col-md-6">
+                                    <label for="inputPassword4">Password</label>
+                                    <input type="password" class="form-control" id="inputPassword4">
+                                  </div>
+                                </div> -->
+                                <div class="form-group">
+                                  <label for="inputAddress2">Contact no.</label>
+                                  <input type="number" class="form-control" id="inputAddress2" placeholder="">
+                                </div>
+                                <div class="form-row">
+                                  <div class="form-group col-md-6">
+                                    <label for="inputCity">City</label>
+                                    <input type="text" class="form-control" id="inputCity">
+                                  </div>
+                                  <div class="form-group col-md-4">
+                                    <label for="inputState">State</label>
+                                    <select id="inputState" class="form-control">
+                                      <option selected>Choose...</option>
+                                      <option>...</option>
+                                    </select>
+                                  </div>
+                                  <div class="form-group col-md-2">
+                                    <label for="inputZip">Zip</label>
+                                    <input type="text" class="form-control" id="inputZip">
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                      Check me out
+                                    </label>
+                                  </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="reset" class="btn btn-primary">Clear</button>
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- tour packages section> -->
+    <div class="package-h">
+        <div class="text-pack">
+            <h1>Tour Packages</h1>
+        </div>
+    </div>
+
+    <!-- package-sec -->
+    <div class="main-cont-pack">
+        <div class="tour-part1">
+            <img src="./image/golden-triangle-shekhawati.jpg" alt="">
+            <div class="tour-text">
+                <h1>Golden Triangle with Shekhawati </h1>
+                <h2>6 Nights / 7 Days </h2>
+                <span class="images"><img src="./image/bus.png" alt=""><img src="./image/hotel-icon.png" alt="">
+                    <img src="./image/food-icon.png" alt=""><img src="./image/car-icon.png" alt=""></span>
+                <li><b>Tour Code</b> : RRTGTS</li>
+                <li><b>Destinations</b> : Delhi/ Agra/ Jaipur/ Mandawa.</li>
+                <p>On arrival at Delhi, you are met and transferred to hotel. (Overnight at hotel)</p>
+                <a class="read-box4" href="#">Read More</a>
+            </div>
+        </div>
+
+        <div class="tour-part1">
+            <img src="./image/romantic-rajasthan.jpg" alt="">
+            <div class="tour-text">
+                <h1>Romantic Rajasthan </h1>
+                <h2>8 Nights / 9 Days </h2>
+                <span class="images"><img src="./image/bus.png" alt=""><img src="./image/hotel-icon.png" alt="">
+                    <img src="./image/food-icon.png" alt=""><img src="./image/car-icon.png" alt=""></span>
+                <li><b>Tour Code</b> : RRTRR</li>
+                <li><b>Destinations</b> : Delhi/ Agra/ Jaipur/ Mandawa.</li>
+                <p>On arrival at Delhi, you are met and transferred to hotel. (Overnight at hotel)</p>
+                <a class="read-box4" href="#">Read More</a>
+            </div>
+        </div>
+
+        <div class="tour-part1">
+            <img src="./image/enchanting-rajasthan.jpg" alt="">
+            <div class="tour-text">
+                <h1>Enchanting Rajasthan </h1>
+                <h2>13 Nights / 14 Days </h2>
+                <span class="images"><img src="./image/bus.png" alt=""><img src="./image/hotel-icon.png" alt="">
+                    <img src="./image/food-icon.png" alt=""><img src="./image/car-icon.png" alt=""></span>
+                <li><b>Tour Code</b> : RRTER</li>
+                <li><b>Destinations</b> : Delhi/ Agra/ Jaipur/ Mandawa.</li>
+                <p>On arrival at Delhi, you are met and transferred to hotel. (Overnight at hotel)</p>
+                <a class="read-box4" href="#">Read More</a>
+            </div>
+        </div>
+
+
+        <div class="tour-part1">
+            <img src="./image/unforgettable-palace.jpg" alt="">
+            <div class="tour-text">
+                <h1>Unforgettable Place Tour </h1>
+                <h2>14 Nights / 15 Days </h2>
+                <span class="images"><img src="./image/bus.png" alt=""><img src="./image/hotel-icon.png" alt="">
+                    <img src="./image/food-icon.png" alt=""><img src="./image/car-icon.png" alt=""></span>
+                <li><b>Tour Code</b> : RRT-01</li>
+                <li><b>Destinations</b> : Delhi/ Agra/ Jaipur/ Mandawa.</li>
+                <p>On arrival at Delhi, you are met and transferred to hotel. (Overnight at hotel)</p>
+                <a class="read-box4" href="#">Read More</a>
+            </div>
+        </div>
+        <div class="tour-part1">
+            <img src="./image/majestic-rajasthan-fort.jpg" alt="">
+            <div class="tour-text">
+                <h1>Majestic Rajasthan Fort Tour</h1>
+                <h2>17 Nights / 18 Days </h2>
+                <span class="images"><img src="./image/bus.png" alt=""><img src="./image/hotel-icon.png" alt="">
+                    <img src="./image/food-icon.png" alt=""><img src="./image/car-icon.png" alt=""></span>
+                <li><b>Tour Code</b> : RRT-02</li>
+                <li><b>Destinations</b> : Delhi/ Agra/ Jaipur/ Mandawa.</li>
+                <p>On arrival at Delhi, you are met and transferred to hotel. (Overnight at hotel)</p>
+                <a class="read-box4" href="#">Read More</a>
+            </div>
+        </div>
+        <div class="tour-part1">
+            <img src="./image/quick-rajasthan.jpg" alt="">
+            <div class="tour-text">
+                <h1>Quick Rajasthan Tour </h1>
+                <h2>5 Nights / 6 Days </h2>
+                <span class="images"><img src="./image/bus.png" alt=""><img src="./image/hotel-icon.png" alt="">
+                    <img src="./image/food-icon.png" alt=""><img src="./image/car-icon.png" alt=""></span>
+                <li><b>Tour Code</b> : RRT-03</li>
+                <li><b>Destinations</b> : Delhi/ Agra/ Jaipur/ Mandawa.</li>
+                <p>On arrival at Delhi, you are met and transferred to hotel. (Overnight at hotel)</p>
+                <a class="read-box4" href="#">Read More</a>
+            </div>
+        </div>
+        <div class="tour-part1">
+            <img src="./image/discover-rajasthan.jpg" alt="">
+            <div class="tour-text">
+                <h1>Discover Rajasthan Tour </h1>
+                <h2>13 Nights / 14 Days </h2>
+                <span class="images"><img src="./image/bus.png" alt=""><img src="./image/hotel-icon.png" alt="">
+                    <img src="./image/food-icon.png" alt=""><img src="./image/car-icon.png" alt=""></span>
+                <li><b>Tour Code</b> : RRT-04</li>
+                <li><b>Destinations</b> : Delhi/ Agra/ Jaipur/ Mandawa.</li>
+                <p>On arrival at Delhi, you are met and transferred to hotel. (Overnight at hotel)</p>
+                <a class="read-box4" href="#">Read More</a>
+            </div>
+        </div>
+        <div class="tour-part1">
+            <img src="./image/grand-rajasthan.jpg" alt="">
+            <div class="tour-text">
+                <h1>Grand Rajasthan Tour </h1>
+                <h2>12 Nights / 13 Days </h2>
+                <span class="images"><img src="./image/bus.png" alt=""><img src="./image/hotel-icon.png" alt="">
+                    <img src="./image/food-icon.png" alt=""><img src="./image/car-icon.png" alt=""></span>
+                <li><b>Tour Code</b> : RRT-05</li>
+                <li><b>Destinations</b> : Delhi/ Agra/ Jaipur/ Mandawa.</li>
+                <p>On arrival at Delhi, you are met and transferred to hotel. (Overnight at hotel)</p>
+                <a class="read-box4" href="#">Read More</a>
+            </div>
+        </div>
+        <div class="tour-part1">
+            <img src="./image/wildlife-rajasthan.jpg" alt="">
+            <div class="tour-text">
+                <h1>Wildlife Rajasthan Tour </h1>
+                <h2>6 Nights / 7 Days </h2>
+                <span class="images"><img src="./image/bus.png" alt=""><img src="./image/hotel-icon.png" alt="">
+                    <img src="./image/food-icon.png" alt=""><img src="./image/car-icon.png" alt=""></span>
+                <li><b>Tour Code</b> : RRT-06</li>
+                <li><b>Destinations</b> : Delhi/ Agra/ Jaipur/ Mandawa.</li>
+                <p>On arrival at Delhi, you are met and transferred to hotel. (Overnight at hotel)</p>
+                <a class="read-box4" href="#">Read More</a>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <footer>
+        <h2>Subscribe <br>get speacial discount</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint perferendis aspernatur.</p>
+        <div class="innput">
+            <input type="text" placeholder="Enter  your e-mail address">
+            <button>Subscribe</button>
+        </div>
+        <ul>
+            <li>
+                7823 <br>
+                <h6> Years Serving the travel Industry</h6>
+            </li>
+            <li>6374<br>
+                <h6> Global <br>Partnership</h6>
+            </li>
+            <li>1495 <br>
+                <h6>Industry Award since 2022</h6>
+            </li>
+            <li>5658 <br>
+                <h6>Subscribe</h6>
+            </li>
+        </ul>
+
+    </footer>
+
+    <script src="app.js"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

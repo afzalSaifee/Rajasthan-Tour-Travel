@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>rajastthan tour & travel </title>
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light  nav">
+    <!-- <a class="navbar-brand" id="c" href="#">Rajasthan tour&travel</a> -->
+    <a class="navbar-brand" id="c" href="#"> <img id="img" src="./image/raj logo.jpeg" alt=""> <img id="img2" src="./image/logoimagge3.png" alt=""></a>
+    <button id="tog" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a id="f-size" class="nav-link" href="index.html"><i id="i-gap" class="fa-solid fa-home"></i>&nbsp;Home <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a id="f-size" class="nav-link" href="tourpackages.html">Tour Package</a>
+        </li>
+       
+        <li class="nav-item dropdown">
+          <a id="f-size" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+            aria-expanded="false">
+            <i class="fa-solid fa-location"></i>&nbsp;Location
+          </a>
+          <div class="dropdown-menu ">
+            <a class="dropdown-item" href="./jodhpur.html">Jodhpur</a>
+            <a class="dropdown-item" href="./jaipur.html">Jaipur</a>
+            <a class="dropdown-item" href="./udaipur.html">udaipur</a>
+            <a class="dropdown-item" href="#">Jaisalmer</a>
+
+          </div>
+        </li>
+        <li class="nav-item">
+            <a id="f-size" class="nav-link" href="./about us.html">About us</a>
+          </li>
+        <li class="nav-item">
+          <button type="button" id="Register" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Register
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Registration form</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="inputAddress">Name</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress">E-mail</label>
+                      <input type="email" class="form-control" id="email" placeholder="xyz@gmail.com">
+                    </div>
+                    <!-- <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputPassword4">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                      </div>
+                    </div> -->
+                    <div class="form-group">
+                      <label for="inputAddress2">Contact no.</label>
+                      <input type="number" class="form-control" id="inputAddress2" placeholder="">
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputCity">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputState">State</label>
+                        <select id="inputState" class="form-control">
+                          <option selected>Choose...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="inputZip">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="reset" class="btn btn-primary">Clear</button>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <div class="jodcontainer">
+    <div class=" jodrow">
+        <h2>Travel Destinations</h2>
+    </div>
+    <div class="jodline">
+        <hr>
+    </div>
+    <br>
+    <br>
+    <div class="jod-destination-part2"><br>
+        <h2 class="jaipur-travl">JAISALMER TOUR & TRAVEL</h2>
+        <p class="destinat-text2">The city of Jaisalmer is named after Rawal Jaisal, a Bhatti Rajput ruler. He founded the city in 1156. A local hermit advised him to set up his new residence on the Tricut Hills, abandoning the old fort at Luderwa. During the medieval times, Jaisalmer served as the main trade route linking India to Egypt, Arabia, Persia, Africa and the West. The 13th century saw the Jaisalmer fort being besieged for 9 years by the emperor of Delhi, Ala-ud-din Khilji. When the defeat of the fort seemed impending, the women folk committed Jauhar (self immolation).</p>
+        <p class="destinat-text2">The battle with Ala-ud-din Khilji resulted in the death of Duda, son of Jaitasimha and a Bhatti hero. Jaisalmer continued to be ruled by the descendants of Duda afterwards. The year 1541 saw another battle in Jaisalmer, with Mughal Emperor Himayun. Later Sabala Simha ruled Jaisalmer under the patronage of Mughal Emperor Shahajahan. He earned this right as a reward for battle distinctions in Peshawar. During the British rule, the state of Jaisalmer was the last to sign the Instrument of Agreement with the British.</p>
+        <p class="destinat-text2">The city of Jaisalmer in Rajasthan, India is divided into two parts - the old city and the new city. Once surrounded by a now battered wall, the old city has seen ages coming and going on. Amongst the many attractions of the city, the main one is Jaisalmer fort. Built in the 12th century, this fort provides a magnificent view of the golden desert below. The other attractions include massive havelis built by wealthy merchants of Jaisalmer. Also, a desert safari of the city, providing a glimpse of sand dunes, will leave you with a sight forever etched in your memory.</p>
+        <p class="destinat-text2">Withstanding the harsh climate and battering winds of the desert, the city of Jaisalmer has kept its age-old charm. Jaisalmer travel and tourism will take you back to the royal bygone era of the once princely state. The age-old traditions and culture of the city makes it a unique experience. This desert city weaves magic on you, leaving you speechless and mesmerized. The hostile terrain of the city fades in front of the warmth and hospitality of its people.</p>
+ <br><br>
+    </div>
+    <div class="mehran">
+        <img src="./image/jaisalmer-fort.jpg" >
+        <div class="mehran-text">
+            <h2>JAISALMER FORT</h2>
+            <p>Feel your heart miss a beat at the enthralling sight of the imposing Jaisalmer Fort, whose each contour, battlement, pillar and stone seems to have risen out of the glorious pale yellow Jaisalmer sands. Perched atop the 80-meter high Trikuta Hill in Jaisalmer, Rajasthan, India, the imposing Jaisalmer Fort was constructed in the year 1156 A.D. to mark the establishment of Rawal Jaisal's supremacy in the region. With an average height of 250-feet, Jaisalmer Fort stands as a proud reminder of Jaisalmer's glorious history. The Jaisalmer Fort is popularly referred to as the Golden Fort as it seems to reflect the lustrous gold sunrays that bathe the yellow Jaisalmer deserts during the day. </p>
+        </div>
+    </div>
+    <div class="umaid">
+        <img src="./image/jaisalmer-haveli.jpg" >
+        <div class="umaid-text">
+            <h2>HAVELIS OF JAISALMER</h2>
+            <p>The havelis of Jaisalmer are stunning impressions of past glory and nobility of Rajasthan, India. Discover the splendid Jaisalmer havelis and enjoy the aesthetic architectural brilliance that greets you during your Jaisalmer tours. A profusion of colorful miniature paintings, glitzy murals and artistic frescoes decorate the walls of almost all Jaisalmer havelis. Enjoy tours to the havelis of Jaisalmer, Rajasthan and visit Nathmalji ki haveli, Patwon ki haveli and Salim Singh ki haveli. Uncloak interesting facts about Jaisalmer's historical past and get transported to a time in history that was characterized by grandeur and elegance. Some of these havelis are more than 300 years old and are steeped in an enigmatic and musty old world charm</p>
+        </div>
+    </div>
+    
+    <div class="jaswant">
+        <img src="./image/nathmalji-ki-haveli.jpg" >
+        <div class="jaswant-text">
+            <h2>NATHMALIJI KI HAVELI</h2>
+            <p>The Nathmalji Ki Haveli in Jaisalmer, Rajasthan was constructed by two architect brothers for the then prime minister in the royal court. Two life size yellow sandstone elephants greet you at the very entrance of the Nathmalji Ki Haveli. The two architects worked independently on two different wings of this exquisite haveli. The craftsmanship on both the wings are completely different though there is perfect symmetry in height.</p>
+        </div>
+    </div>
+    <div class="balsamand">
+        <img src="./image/salim-singhki-haveli.jpg" >
+        <div class="balsamand-text">
+            <h2>SALIM SINGH KI HAVELI</h2>
+            <p>Rajasthan Jaisalmer tours must definitely entail tours to Salim Singh Ki haveli that stands in mute testimony to the splendorous Jaisalmer past towards the eastern end of Jaisalmer city. This stately Jaisalmer haveli with its stunning blue cupola roof is resplendent with exquisite stone carvings, screen windows and exotic murals. The intricately chiseled brackets on the walls of Salim Singh ki haveli speak volumes about the love for detail and beauty among the artisans of those days.</p>
+        </div>
+    </div>
+    <div class="jaswant">
+      <img src="./image/patwon-ki-haveli.jpg" >
+      <div class="jaswant-text">
+          <h2>PATWON KI HAVELI</h2>
+          <p>This is one of the largest and most elaborate Haveli in Jaisalmer and stands in a narrow lane. It is five storeys high and is extensively carved. It is divided into six apartments, two owned by archaeological Survey of India, two by families who operate craft-shops and two private homes. There are remnants of paintings on some of the inside walls as well as some mirror work.Patwon-Ki-Haveli is the largest & most elaborate haveli in Jaisalmer.</p>
+      </div>
+  </div>
+    <div class="balsamand">
+        <img src="./image/sam-sand-jaisl.jpg" >
+        <div class="balsamand-text">
+            <h2>SAM SAND DUNES</h2>
+            <p>Sam village is on the edge of the Desert National Park. One of the most popular excursions is to the sand dunes on the edge of the park, 42 km from Jaisalmer along a very good sealed road. It is best to be here at sunrise or sunset, , and many camel safaris spend a night at the dunes. Just before the sunset jeep carrying loads of day-trippers arrive from Jaisalmer to be chased across the sands by tenacious camel owners. Despite of the tourist hype, it is still quite a magical place, and it is possible to frame pictures of solitary camels against lonely dunes. The desert dung beetles are fascinating to watch.</p>
+        </div>
+    </div>
+    <div class="jaswant">
+      <img src="./image/gadi-sagar-jaisal.jpg" >
+      <div class="jaswant-text">
+          <h2>GADI SAGAR LAKE</h2>
+          <p>Gadi Sagar Lake is one of the most important tourist attractions in Jaisalmer, Rajasthan, North India. Its charm lies in the fact that it was the only source of water for the Jaisalmer city in the olden days. A manmade reservoir, the Gadi Sagar Lake in Jaisalmer, Rajasthan was constructed by Raja Rawal Jaisal, the first ruler of Jaisalmer. In the later years Maharaja Garisisar Singh rebuilt and revamped the lake. Located towards the south of Jaisalmer city the entrance to the Gadi Sagar Lake or Garsisar Tank is through a magnificent and artistically carved yellow sandstone archway that is known as the Tilon-Ki-Pol.</p>
+      </div>
+  </div>
+</div>
+
+    
+  <footer>
+    <h2>Subscribe <br>get speacial discount</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint perferendis aspernatur.</p>
+    <div class="innput">
+      <input type="text" placeholder="Enter  your e-mail address">
+      <button>Subscribe</button>
+    </div>
+    <ul>
+      <li>
+        7823 <br><h6> Years Serving the travel Industry</h6>
+      </li>
+      <li>6374<br><h6> Global <br>Partnership</h6></li>
+      <li>1495 <br> <h6>Industry Award since 2022</h6></li>
+      <li>5658 <br> <h6>Subscribe</h6></li>
+    </ul>
+
+  </footer>
+
+  <script src="app.js"></script>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+</body>
+</html>
