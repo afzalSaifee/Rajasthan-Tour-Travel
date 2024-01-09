@@ -466,6 +466,9 @@ a:-webkit-any-link {
   }
 
   @media(max-width:600px){
+       .top-1 {
+        gap: 25px;
+    }
     .main-cont-pack {
         width: 100%;
     }
