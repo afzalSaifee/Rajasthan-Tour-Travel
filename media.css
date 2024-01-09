@@ -427,6 +427,12 @@ a:-webkit-any-link {
     footer p {
         width: 213px;
     }
+    footer .innput input {
+        font-size: 9px;
+    }
+    footer .innput button {
+        font-size: 9px;
+    }
     footer ul li {      
         margin-right: 18px;
     }
@@ -460,11 +466,23 @@ a:-webkit-any-link {
   }
 
   @media(max-width:600px){
+    .main-cont-pack {
+        width: 100%;
+    }
+    .main-cont-pack .tour-part1 {
+        width: 46.4%;
+    }
     .jaswant, .mehran {
     flex-direction: column;
+    margin: 8px 0;
   }
   .balsamand,.umaid{
     flex-direction: column;
+    margin: 8px 0;
+  }
+  .mehran #jodimg{
+    height: 200px;
+    object-fit: cover;
   }
   .jaswant img, .mehran img {
     width: 96%;
