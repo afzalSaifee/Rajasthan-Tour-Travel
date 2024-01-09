@@ -178,6 +178,9 @@
 }
 }
 @media(max-width:425px){
+    body{
+        padding-top: 56px;
+    }
     .ser-div1 img {
         max-width: 43%;
     }
@@ -202,7 +205,7 @@
 @media(max-width:320px){
     .destination .img-bx .msg:nth-child(2) {
         top: 10%;
-        left: 50%;
+        left: 30%;
     }
        #c #img2{
         margin-left: -10px;
@@ -214,15 +217,48 @@
         height: 304px;
     }
     .destination .des-bx h4 {
-        font-size: 16px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .destination .des-bx p {
+        font-size: 9px;
     }
     .destination .des-bx li {
-        font-size: 11px;
+        font-size: 9px;
+        line-height: 20px;
     }
     .destination .des-bx h6 {
         width: 105px;
-        font-size: 10px;
+        font-size: 8px;
 }
+
+element.style {
+}
+.destination .des-bx button a {
+    text-decoration: none;
+    color: #fff;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.destination .des-bx button {
+    font-size: 8px;}
 }
 @media(max-width:600px){
     footer p {
@@ -248,12 +284,19 @@
         margin-left: -13px;
     }
 }
-
-
+@media (max-width: 270px){
+.destination .img-bx .msg:nth-child(2) {
+    top: 10%;
+    left: 12%;
+}
+}
 /* tour package page */
 @media(max-width:768px){
     .package-h{
         margin: 44px auto;
+    }
+    .destinat-text2 {
+        font-size: 17px;
     }
     .main-cont-pack .tour-part1 .tour-text h1{
         font-size: 15px;   
@@ -281,6 +324,15 @@
     .main-cont-pack .tour-part1 .tour-text h1{
         font-size: 12px;   
     }
+    .jaswant-text p, .mehran-text p {
+        font-size: 13px;
+    }     
+    .balsamand-text p, .umaid p {
+        font-size: 13px;
+    } 
+    .destinat-text2 {
+        font-size: 14px;
+    }      
     
     .main-cont-pack .tour-part1 .tour-text h2 {
         font-size: 11px;
@@ -310,6 +362,16 @@
     .package-h .text-pack h1{
         font-size: 1.6rem;
     }
+    .jaswant-text p, .mehran-text p {
+        font-size: 11px;
+    }
+    .balsamand-text p, .umaid p {
+        font-size: 11px;
+    } 
+    .destinat-text2 {
+        font-size: 12px;
+    }      
+    
 }
   /* About us section */
   @media(max-width:768px){
@@ -319,6 +381,20 @@
     .service-sec .service .service-menu li {
         line-height: 40px;
   }
+  .jaswant h2, .mehran-text h2 {
+    font-size: 25px;
+    }
+    .balsamand-text h2, .umaid-text h2 {
+        font-size: 25px;
+    }
+    .jaswant-text p, .mehran-text p {
+        line-height: 22px;
+        padding: 6px;
+    }
+    .balsamand-text p, .umaid p {
+        line-height: 22px;
+        padding: 6px;
+    }
 }
   @media(max-width:570px){
     .service-sec .service img {
@@ -329,6 +405,13 @@
     .service-sec .service img {
         height: 350px;
         width: 350px;}
+        .jaswant, .mehran {
+           max-height: 500px;
+        }
+        .balsamand, .umaid {
+           
+            max-height: 500px;
+        }
 } 
   @media(max-width:375px){
     .service-sec .service img {
@@ -339,9 +422,105 @@
     .service-sec .service img {
         height: 300px;
         width: 250px;}
-}  
-
-  /* location section */
-  @media(max-width:1024px){
+  footer .innput input {
+    padding: 15px 11px;}
+    footer p {
+        width: 213px;
+    }
+    footer ul li {      
+        margin-right: 18px;
+    }
+    .jaswant-text p, .mehran-text p {
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .balsamand-text p, .umaid p {
+        font-size: 9px;
+        line-height: 15px;
+    } 
+    .destinat-text2 {
+        font-size: 10px;
+    } 
+    .jaswant h2, .mehran-text h2 {
+        font-size: 19px;
+    }
+    .balsamand h2,.umaid h2{
+        font-size: 19px;
+    }
+    .about {
+        margin: 6px;
+        /* line-height: 20px; */
+        padding: 6px 5px;
+    }
+    .service-sec {
+        
+        padding: 6px 20px;
+    }
   
+  }
+
+  @media(max-width:600px){
+    .jaswant, .mehran {
+    flex-direction: column;
+  }
+  .balsamand,.umaid{
+    flex-direction: column;
+  }
+  .jaswant img, .mehran img {
+    width: 96%;
+  }
+  .jaswant-text, .mehran-text {
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px;
+ }
+  .balsamand-text, .umaid-text {
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px;
+ }
+ .jaswant h2, .mehran-text h2 {
+    text-align: center;
+   }
+  .balsamand img, .umaid img {
+    width: 96%;
+  }
+  .balsamand-text h2, .umaid-text h2 {
+    text-align: center;
+ }
+}
+  /* location section */
+  @media(max-width:270px){
+    footer .innput input {
+        font-size: 8px;
+    }
+    footer .innput button {
+        font-size: 8px;
+    }
+    .jodrow h2 {
+        font-size: 2rem;
+    }
+    footer ul li {
+        margin-right: 13px;
+    }
+    .service-sec .service img {
+        height: 300px;
+        width: 200px;
+    }
+    .service-sec .service .service-menu li {
+        line-height: 31px;
+        font-size: 12px;
+    }
+    .service-sec {
+        
+        padding: 6px 7px;
+    }
+}
+  @media(max-width:240px){
+    .jodrow h2 {
+        font-size: 1.7rem;
+    }
+    footer ul li {
+        margin-right: 5px;
+    }
 }
